@@ -1,0 +1,25 @@
+$categories: (
+ frontend: #8E8D93,
+ backend: rgb(206, 14, 30),
+ android: rgb(224, 33, 106),
+ dataanalysis: #FE4C52,
+ webdevelopment: #FD8B2D,
+ uidesign: #FED035,
+ marketing: #69BB7B,
+ blockchain: #3BC7C4,
+ chatbot: #B16BE3,
+ machinelearning: #6600CC,
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+page-schedule {
+  @each $track, $value in auxiliary-categories() {
+   ion-item-sliding[track=#{$track}] ion-label {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+}

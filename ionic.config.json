@@ -1,0 +1,8 @@
+{
+  "name": "favcode54-timetable",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,27 @@
+<ion-header no-border>
+
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide >
+      <img src="assets/img/appicon.png" class="slide-image"/>
+      <h1 class="slide-title">
+        Welcome to Favcode54  Class Timetable
+      </h1>
+      <p class="p">
+        Access Up-to date Clases for Favcode54 Classes'  </p>
+    </ion-slide>
+
+    <ion-slide class="body">
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <h1 class="slide-title">Ready?</h1>
+      <button ion-button icon-end large clear (click)="startApp()">
+        Continue
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

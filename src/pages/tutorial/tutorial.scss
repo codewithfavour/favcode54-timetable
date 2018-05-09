@@ -1,0 +1,44 @@
+
+page-tutorial {
+  
+  .toolbar-background {
+    background: transparent;
+    border-color: transparent;
+  }
+  .body{
+    margin-top: 50px; margin-right: auto; display: block; 
+}
+  .slide-zoom {
+    height: 100%;
+  }
+ 
+  .slide-title {
+    margin-top: 2.8rem;
+    color: #19ac25;
+
+
+  }
+.scroll-bar-indicator
+{
+	display: none;
+}
+  .slide-image {
+    max-height: 30%;
+    max-width: 30%;
+    align-self: center;
+  
+    margin-left: auto; margin-right: auto; margin-top: 100px; display: block; 
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  .p {
+    padding: 0 40px;
+    font-size: 0px;
+    line-height: 2;
+   color: #19ac25;
+  }
+
+}
