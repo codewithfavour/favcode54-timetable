@@ -163,3 +163,5 @@ ionic-conference-app/
 ```
 ## Uploading to Web
 When uploading to the web collect all files under the /www folder it is the code for web, edit its data.json file too.
+Upload to www.github.com/codewihtfavor/timetable
+View it at https://codewithfavour.github.io/timetable/
